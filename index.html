@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𝖕𝖊𝖕𝖕𝖊𝖗 | @66pepper99</title>
+  <meta name="description" content="Official links for pepper (@66pepper99) — TikTok, Instagram, Discord & Proton Mail.">
+  <meta property="og:title" content="𝖕𝖊𝖕𝖕𝖊𝖗 | @66pepper99">
+  <meta property="og:description" content="Connect with pepper on TikTok, Instagram, Discord & Proton Mail.">
+  <meta property="og:image" content="assets/avatar.png">
+  <meta name="theme-color" content="#7928ca">
+  
+  <!-- Google Fonts: Gothic aesthetic header + clean modern UI -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons for platform icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+  <canvas id="particles-canvas"></canvas>
+
+  <main class="page-container">
+    <div class="card-wrapper" id="profile-card">
+      
+      <!-- Banner Area -->
+      <div class="profile-banner">
+        <div class="banner-overlay"></div>
+        <div class="banner-dragon-accent"></div>
+      </div>
+
+      <div class="profile-content">
+        <!-- Avatar Section -->
+        <div class="avatar-container">
+          <div class="avatar-dragon-ring">
+            <img src="assets/avatar.png" alt="pepper avatar" class="avatar-img">
+          </div>
+          <span class="status-indicator dnd" title="Do Not Disturb"></span>
+        </div>
+
+        <!-- Identity Header -->
+        <header class="profile-header">
+          <div class="name-row">
+            <h1 class="display-name" title="pepper">𝖕𝖊𝖕𝖕𝖊𝖗</h1>
+            <button class="copy-icon-btn" id="copy-name-btn" title="Copy 66pepper99" aria-label="Copy 66pepper99" data-copy="66pepper99">
+              <i class="fa-regular fa-copy"></i>
+            </button>
+          </div>
+
+          <div class="handle-row">
+            <span class="handle">66pepper99</span>
+            <span class="bullet">•</span>
+            <span class="pepper-emoji">🌶️</span>
+            
+            <!-- Badges matching Discord aesthetic -->
+            <div class="badge-list" aria-label="Profile Badges">
+              <span class="badge badge-teal" title="Active Member"><i class="fa-solid fa-shield-halved"></i></span>
+              <span class="badge badge-cyan" title="Community"><i class="fa-solid fa-hashtag"></i></span>
+              <span class="badge badge-purple" title="HypeSquad"><i class="fa-solid fa-crown"></i></span>
+              <span class="badge badge-green" title="Early Supporter"><i class="fa-solid fa-leaf"></i></span>
+              <span class="badge badge-gem" title="Nitro Booster"><i class="fa-solid fa-gem"></i></span>
+            </div>
+          </div>
+        </header>
+
+        <!-- Link Buttons Section -->
+        <section class="links-section">
+
+          <!-- TikTok Link -->
+          <a href="https://www.tiktok.com/@wilma69diqfit?_r=1&_t=ZN-99eTQzqtvDa" target="_blank" rel="noopener noreferrer" class="link-card link-tiktok">
+            <div class="link-icon-box">
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div class="link-info">
+              <span class="link-platform">TikTok</span>
+              <span class="link-handle">@wilma69diqfit</span>
+            </div>
+            <div class="link-action">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </a>
+
+          <!-- Instagram Link -->
+          <a href="https://www.instagram.com/piotr72181/" target="_blank" rel="noopener noreferrer" class="link-card link-instagram">
+            <div class="link-icon-box">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="link-info">
+              <span class="link-platform">Instagram</span>
+              <span class="link-handle">@piotr72181</span>
+            </div>
+            <div class="link-action">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+          </a>
+
+          <!-- Email (Proton Mail) -->
+          <div class="link-card link-email">
+            <a href="mailto:givemeanon@proton.me" class="link-main-anchor" title="Send email to givemeanon@proton.me">
+              <div class="link-icon-box">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="link-info">
+                <div class="platform-tag-row">
+                  <span class="link-platform">Proton Mail</span>
+                  <span class="verified-tag">Email</span>
+                </div>
+                <span class="link-handle">givemeanon@proton.me</span>
+              </div>
+            </a>
+            <div class="link-action-buttons">
+              <button class="action-btn copy-btn" title="Copy email address" aria-label="Copy email" data-copy="givemeanon@proton.me">
+                <i class="fa-regular fa-copy"></i>
+                <span class="btn-tooltip">Copy</span>
+              </button>
+              <a href="mailto:givemeanon@proton.me" class="action-btn mail-btn" title="Open email client" aria-label="Send email">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span class="btn-tooltip">Send</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Discord Card -->
+          <div class="link-card link-discord">
+            <div class="link-main-anchor">
+              <div class="link-icon-box">
+                <i class="fa-brands fa-discord"></i>
+              </div>
+              <div class="link-info">
+                <span class="link-platform">Discord</span>
+                <span class="link-handle">66pepper99</span>
+              </div>
+            </div>
+            <div class="link-action-buttons">
+              <button class="action-btn copy-btn" title="Copy Discord username" aria-label="Copy Discord username" data-copy="66pepper99">
+                <i class="fa-regular fa-copy"></i>
+                <span class="btn-label">Copy</span>
+              </button>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- Footer Actions -->
+        <footer class="profile-footer">
+          <button class="share-btn" id="share-page-btn">
+            <i class="fa-solid fa-share-nodes"></i>
+            <span>Share Profile</span>
+          </button>
+          <div class="footer-meta">
+            <span>🌶️ 𝖕𝖊𝖕𝖕𝖊𝖗 • 2026</span>
+          </div>
+        </footer>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Toast Notification Popup -->
+  <div class="toast" id="toast">
+    <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
+    <div class="toast-message" id="toast-message">Copied to clipboard!</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
