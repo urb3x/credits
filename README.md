@@ -18,9 +18,3 @@ Official personal links and credits website for **pepper** (`@66pepper99`).
 - 1-click copy for email, handles, and display name with feedback toasts.
 - Interactive 3D card tilt and responsive design for mobile & desktop.
 
-## 🚀 Live Hosting (GitHub Pages)
-
-To enable GitHub Pages for this repository:
-1. Go to repository **Settings** > **Pages**
-2. Under **Build and deployment** > **Branch**, select `main` (or `master`) and folder `/ (root)`
-3. Click **Save** — your site will be live at `https://urb3x.github.io/credits/`
